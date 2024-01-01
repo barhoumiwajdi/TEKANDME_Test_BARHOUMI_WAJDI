@@ -1,0 +1,63 @@
+.calltoaction {
+    background-image: linear-gradient(to right, #2B2B2B, rgba(43, 43, 43, 1), rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0.5)), url('../../Assets/Image-arrière-plan.jpg');
+    height: 100%;
+
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+img#castor {
+    margin-bottom: -59px;
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .CastorRow {
+        height: auto !important;
+    }
+
+    img#castor {
+        margin-bottom: -59px;
+    }
+}
+
+.calltoaction h3 {
+    color: var(--Blanc-Blanc, #FCFCFC);
+    /* Titres/H3 */
+    font-family: Orbitron;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+
+    text-transform: uppercase;
+}
+
+.calltoaction span {
+    color: var(--Jaune, #F4C02F);
+
+    font-family: Orbitron;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.calltoaction p {
+    color: var(--blanc-blanc-70, rgba(252, 252, 252, 0.70));
+
+
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+}

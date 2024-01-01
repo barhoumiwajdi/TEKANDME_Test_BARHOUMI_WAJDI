@@ -1,0 +1,24 @@
+.counter h2 {
+    color: var(--Noir-Noir, #2B2B2B);
+    text-align: center;
+
+    /* Titres/H2 */
+    font-family: Orbitron;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 125% */
+    text-transform: uppercase;
+}
+
+.counter span {
+    color: var(--Noir-Noir, #2B2B2B);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+}

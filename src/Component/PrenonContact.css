@@ -1,0 +1,58 @@
+.prenoncontact {
+    background-image: linear-gradient(to right, #2B2B2B, rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0)), url('../Assets/PrenonContact.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px !important;
+}
+
+.prenoncontact h2 {
+    color: var(--Blanc-Blanc, #FCFCFC);
+
+    font-family: Orbitron;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+
+    text-transform: uppercase;
+}
+
+.prenoncontact p {
+    color: var(--Noir, #171C24);
+    /* Text/Texte */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    opacity: 0.7;
+}
+
+.prenoncontact h4 {
+    color: var(--Noir, #171C24);
+    /* Text/Mini texte */
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+}
+
+
+#etoile {
+    display: inline-flex;
+    transform: rotate(-8deg);
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.contactrow {
+    margin-top: -50px !important;
+    margin-bottom: -50px !important;
+}

@@ -1,0 +1,84 @@
+.Footer h3 {
+    color: var(--Noir-Noir, #2B2B2B);
+    /* Titres/H3 */
+    font-family: Orbitron;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 140% */
+    text-transform: uppercase;
+}
+
+.Footer {
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.Footer p {
+    color: var(--noir-noir-70, rgba(43, 43, 43, 0.70));
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none !important;
+
+}
+
+.Footer a {
+    color: var(--Noir, #171C24);
+    /* Text/Texte */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    text-decoration: none !important;
+    opacity: 0.7;
+
+}
+
+.Footer .btnphone {
+    color: var(--Noir-Noir, #2B2B2B);
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-top: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-right: 2px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-bottom: 3px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-left: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    background: var(--Blanc-Blanc, #FCFCFC);
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Footer .btncontact {
+    color: var(--Noir-Noir, #2B2B2B);
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-top: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-right: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-bottom: 3px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-left: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    background: var(--Jaune, #F4C02F);
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
