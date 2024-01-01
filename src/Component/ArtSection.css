@@ -41,7 +41,7 @@
     text-align: center;
     /* Titres/H1 */
     font-family: Orbitron;
-
+    font-size: 80px;
     font-style: normal;
     font-weight: 800;
     line-height: 96px;
@@ -78,20 +78,4 @@
     line-height: 24px;
     /* 171.429% */
     text-transform: uppercase;
-}
-
-
-@media screen and (max-width: 770px) {
-    .sectionArt h1 {
-        color: var(--Noir-Noir, #2B2B2B);
-        text-align: center;
-        /* Titres/H1 */
-        font-family: Orbitron;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 50px;
-        /* 120% */
-        text-transform: uppercase;
-    }
 }

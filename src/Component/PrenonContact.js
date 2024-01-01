@@ -13,7 +13,7 @@ function PrenonContact() {
                     <h2>Ce que Pensent nos clients</h2>
                     <button style={{ color: 'black', backgroundColor: '#F4C02F' }} className='btn '>Prenons contact</button>
                 </div>
-                <div className='col-12 col-md-6 col-lg-12 d-flex justify-content-center align-items-center  contactrow '>
+                <div className='col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center  contactrow '>
                     <div >
 
 
