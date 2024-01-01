@@ -1,6 +1,6 @@
 import React from 'react'
-import './Counter.css'
-function Counter() {
+import './StatsSection.css'
+function StatsSection() {
     return (
         <div className='container counter mt-5'>
             <div className='row mt-5 p-5'>
@@ -25,4 +25,4 @@ function Counter() {
     )
 }
 
-export default Counter
+export default StatsSection

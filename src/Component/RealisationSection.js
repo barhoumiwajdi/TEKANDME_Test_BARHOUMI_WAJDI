@@ -1,7 +1,7 @@
 import React from 'react'
-import './Interrogation.css'
+import './RealisationSection.css'
 import homme from '../Assets/AdobeStock_628117056 1.png'
-function Interrogation() {
+function RealisationSection() {
   return (
     <div className="container interrogation">
       <div className='row'>
@@ -78,4 +78,4 @@ function Interrogation() {
   )
 }
 
-export default Interrogation
+export default RealisationSection

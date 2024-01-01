@@ -119,3 +119,29 @@
      transform: scale(1.1);
      /* Increase the scale on hover */
  }
+
+ .NosService h3 {
+
+     color: var(--Blanc-Blanc, #FCFCFC);
+     font-family: Orbitron;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 32px;
+     /* 133.333% */
+     text-transform: uppercase;
+ }
+
+
+ .NosService p {
+
+     overflow: hidden;
+     color: var(--blanc-blanc-70, rgba(252, 252, 252, 0.70));
+     text-overflow: ellipsis;
+     font-family: Manrope;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 24px;
+     /* 150% */
+ }

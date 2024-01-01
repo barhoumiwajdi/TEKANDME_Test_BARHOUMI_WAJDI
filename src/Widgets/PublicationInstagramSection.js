@@ -1,10 +1,10 @@
 import React from 'react'
-import './Gallery.css'
+import './PublicationInstagramSection.css'
 import img1 from '../Assets/Rectangle 34624367.png'
 import img2 from '../Assets/Rectangle 34624368.png'
 import img3 from '../Assets/Rectangle 34624369.png'
 import img4 from '../Assets/DA ASSETconseils.png'
-function Gallery() {
+function PublicationInstagramSection() {
     return (
         <div className='section1'>
 
@@ -50,4 +50,4 @@ function Gallery() {
     )
 }
 
-export default Gallery
+export default PublicationInstagramSection

@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../Assets/card1-1.png';
-import img2 from '../Assets/card2-2.png';
-import img3 from '../Assets/card3-3.png';
+import img1 from '../../Assets/card1-1.png';
+import img2 from '../../Assets/card2-2.png';
+import img3 from '../../Assets/card3-3.png';
 import './NosService.css';
 
 function NosService() {
@@ -23,8 +23,8 @@ function NosService() {
                                     </div>
                                     <img src={img1} className="card-img" alt="..." height={'100%'} width={'100%'} />
                                     <div className="card-content">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <h5 className="card-title">Charpente</h5>
+                                        <p className="card-text">Morbi tristique senectus et netus et malesuada fames ac turpis. Nisl rhoncus mattis rhoncus urna neque viverra. Ac...</p>
 
                                     </div>
                                 </div>
@@ -38,8 +38,8 @@ function NosService() {
                                     </div>
                                     <img src={img2} className="card-img" alt="..." height={'100%'} width={'100%'} />
                                     <div className="card-content">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <h5 className="card-title">zinguerie</h5>
+                                        <p className="card-text">Morbi tristique senectus et netus et malesuada fames ac turpis. Nisl rhoncus mattis rhoncus urna neque viverra. Ac...</p>
 
                                     </div>
                                 </div>
@@ -54,8 +54,8 @@ function NosService() {
                                     </div>
                                     <img src={img3} className="card-img" alt="..." height={'100%'} width={'100%'} />
                                     <div className="card-content">
-                                        <h5 className="card-title">Card title</h5>
-                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <h5 className="card-title">Façades</h5>
+                                        <p className="card-text">Morbi tristique senectus et netus et malesuada fames ac turpis. Nisl rhoncus mattis rhoncus urna neque viverra. Ac...</p>
 
                                     </div>
                                 </div>

@@ -20,7 +20,7 @@ function Histoire() {
                         <p>
                             Depuis 30 ans, EM Couverture s'est taillé une réputation impeccable dans le monde des toits à Monaco. Nous avons réinventé la couverture, tout en gardant nos pieds (et nos tuiles) sur terre. Découvrez notre parcours unique et notre engagement envers l'excellence.
                         </p>
-                        <button className='btn btn-outline-light btnHistoire'>EN SAVOIR PLUS</button>
+                        <button className='btnHistoire'>EN SAVOIR PLUS</button>
                     </div>
                 </div>
             </div>

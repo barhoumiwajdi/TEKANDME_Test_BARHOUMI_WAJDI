@@ -2,21 +2,26 @@ import React from 'react'
 import Navbar from '../Layout/Navbar'
 import HeroSection from '../Layout/HeroSection'
 
-import Counter from '../Widgets/Counter'
-import NosService from './NosService'
+
+
 
 import ArtSection from './ArtSection'
 import Bureau from './Bureau'
 import LogoCarousel from '../Widgets/LogoCarousel'
 import PrenonContact from './PrenonContact'
-import Gallery from '../Widgets/Gallery'
 
-import Interrogation from './Interrogation'
+
+
 import Footer from '../Layout/Footer'
 import Histoire from './Section/Histoire'
-import CallToAction from './Section/CallToAction'
+import NosService from './Section/NosService'
+
 import VideoSection from './Section/VideoSection'
 import Projet from './Section/Projet'
+import StatsSection from '../Widgets/StatsSection'
+import MonacoSection from './Section/MonacoSection'
+import PublicationInstagramSection from '../Widgets/PublicationInstagramSection'
+import RealisationSection from './RealisationSection'
 
 function Home() {
     return (
@@ -26,8 +31,8 @@ function Home() {
             <div className="container-fluid " style={{ backgroundColor: '#EDF0F3 ' }}>
 
                 <Histoire />
-                <CallToAction />
-                <Counter />
+                <MonacoSection />
+                <StatsSection />
                 <NosService />
                 <VideoSection />
             </div>
@@ -41,8 +46,8 @@ function Home() {
                 <LogoCarousel />
                 <Projet />
 
-                <Interrogation />
-                <Gallery />
+                <RealisationSection />
+                <PublicationInstagramSection />
             </div>
             <Footer />
             {/*  

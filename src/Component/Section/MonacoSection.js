@@ -1,9 +1,9 @@
 import React from 'react'
-import './calltoaction.css'
+import './MonacoSection.css'
 import castor from '../../Assets/castor-1.png'
 import flagmn from '../../Assets/MC - Monaco.png'
 import flagfr from '../../Assets/FR.png'
-function CallToAction() {
+function MonacoSection() {
     return (
         <div className='container calltoaction mt-5'>
 
@@ -36,4 +36,4 @@ function CallToAction() {
     )
 }
 
-export default CallToAction
+export default MonacoSection
