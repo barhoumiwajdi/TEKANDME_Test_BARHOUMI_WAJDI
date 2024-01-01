@@ -47,3 +47,24 @@
         text-transform: uppercase;
     }
 }
+
+.interrogatio .accordion-button {
+    color: var(--Noir-Noir, #2B2B2B);
+    font-family: Orbitron;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.interrogatio .accordion-body {
+    color: var(--Noir-Noir, #2B2B2B);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 177.778% */
+}
