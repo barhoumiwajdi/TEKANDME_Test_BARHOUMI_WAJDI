@@ -29,14 +29,10 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    width: 100%;
+
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
-}
-
-.Projectsection {
-    height: 100%;
 }

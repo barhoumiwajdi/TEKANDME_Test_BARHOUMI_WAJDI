@@ -21,7 +21,7 @@ function VideoSection() {
                                 </button>
                             </p>
 
-                            <div className="mt-5 d-flex justify-content-center   videoframe">
+                            <div className="mt-5 d-flex justify-content-center align-items-center    ">
                                 <div className="row-video-section">
                                     <video className="section-video" loop muted autoPlay playsInline>
                                         <source src="https://s3-figma-videos-production-sig.figma.com/video/930590723035425412/TEAM/0d1f/e6f0/-9a06-4529-8d8e-547ab140aa4e?Expires=1704672000&Signature=eDEvMIXcrl6aRc67pV3o~QtthINyQOplyqxPcNLoXjwk~kh7geEphwzdLd~99M2N2VWJ8Jir64Tc72hVVrUvCwAJVAhFwoteH-AnImS97qNBSscN~Inr-JTMInpwcCRVZ24tAfRFtLfMvdDz89S7odMydONDnxCyDI1Ny9xRZ~od0BQYUPmqwol03psSM~NPU6jafzLggNS49Y0WX3hjEldaceidBazGFUTsz0bLs~opoci0X2oftqGmxI3wWq7ZF313tFa~8-Ihvu7wPyVIJ~BqLM70hKTYjC4WpKUy7sjQlj4YdwJZ4TuoMZhIdr1LVP3OYNwiGC6WZZGHCfVcOQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" type="video/mp4" />
