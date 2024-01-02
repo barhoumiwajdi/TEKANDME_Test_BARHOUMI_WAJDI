@@ -9,18 +9,19 @@ function LogoCarousel() {
         <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
 
             <div className="container logocarousel ">
-                <h2 className=' '>Ils parlent de nous</h2>
-                <div id='titlelogo d-flex justify-content-end align-items-end'>
-                    <div className="    text-center  ">
-                        <a className="carousel-control-prev position-relative d-inline me-4" href="#carouselLogos" data-bs-slide="prev">
-                            <svg width="2em" height="2em" viewBox="0 0 16 16" className="text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+
+                <div className='text-center d-flex justify-content-center align-items-center'>
+                    <h2  >Ils parlent de nous</h2>
+                    <div className='d-flex   justify-content-between align-items-end '>
+                        <a className="carousel-control-prev position-relative d-inline ms-4 me-4" href="#carouselLogos" data-bs-slide="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M21 8L13 16L21 24" stroke="#FCFCFC" stroke-width="2" />
                             </svg>
                             <span className="visually-hidden">Previous</span>
                         </a>
                         <a className="carousel-control-next position-relative d-inline" href="#carouselLogos" data-bs-slide="next">
-                            <svg width="2em" height="2em" viewBox="0 0 16 16" className="text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M11 24L19 16L11 8" stroke="#FCFCFC" stroke-width="2" />
                             </svg>
                             <span className="visually-hidden">Next</span>
                         </a>
