@@ -1,7 +1,45 @@
-.nav-link {
+.nav-item {
+    color: var(--noir-noir-50, rgba(43, 43, 43, 0.50));
+
+    /* Text/Mini texte */
+    font-family: Orbitron;
+    font-size: 14px;
+    font-style: normal;
     font-weight: 800;
     line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
+
+}
+
+
+
+.nav-link:hover {
+    text-decoration: underline rgba(244, 192, 47, 1);
+
+}
+
+
+.Contactbtn {
+    border-top: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-right: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-bottom: 3px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-left: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    background: var(--Jaune, #F4C02F);
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: var(--Noir-Noir, #2B2B2B);
+    text-align: center;
+
+    /* Text/Mini texte */
+    font-family: Orbitron;
     font-size: 14px;
-    font-family: 'Orbitron';
-    margin-left: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    /* 171.429% */
+    text-transform: uppercase;
 }

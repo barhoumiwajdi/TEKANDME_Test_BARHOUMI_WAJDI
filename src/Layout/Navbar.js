@@ -44,7 +44,7 @@ function Navbar() {
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
-                        <button className="btn " style={{ backgroundColor: '#F4C02F', color: 'black' }} type="submit">Contact</button>
+                        <button className="Contactbtn" type="submit">Contact</button>
                     </form>
                 </div>
             </div>
