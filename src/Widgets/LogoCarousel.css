@@ -14,3 +14,15 @@
 .container.logocarousel {
     margin-top: 150px !important;
 }
+
+/* .logocarousel .carousel .row .col-lg-3,
+.logocarousel .carousel .row .col-6 {
+    display: flex;
+    width: 288px;
+    height: 144px;
+    padding: 12px 84px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: white;
+} */

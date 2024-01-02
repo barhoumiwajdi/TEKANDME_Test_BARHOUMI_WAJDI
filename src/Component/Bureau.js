@@ -4,25 +4,21 @@ import IMG2 from '../Assets/image 69.png'
 import('./Bureau.css')
 function Bureau() {
     return (
-        <div className='container bg-light pt-5   mb-5' >
+        <div className='container Bureau bg-light pt-5   mb-5' >
             <div className='row d-flex'>
 
                 <div className='p-5 col-12 col-md-6  col-lg-6 d-flex justify-content-center align-items-center center-block'>
                     <div>
                         <h3>
-                            Notre Histoire en Quelques Tuiles
+                            Un bureau d’études innovant
                         </h3>
-
-
-
                         <p>
-                            Depuis 30 ans, EM Couverture s'est taillé une réputation impeccable dans le monde des toits à Monaco. Nous avons réinventé la couverture, tout en gardant nos pieds (et nos tuiles) sur terre. Découvrez notre parcours unique et notre engagement envers l'excellence.
-                        </p>
-                        <button className='btn btn-outline-light text-dark'>EN SAVOIR PLUS</button>
+                            Derrière chaque toit exceptionnel se cache une équipe de cerveaux brillants. Notre bureau d'études est l'endroit où l'innovation et la précision se marient pour créer des toits qui défient les conventions. Nous faisons des calculs pour que vous n'ayez pas à le faire !                        </p>
+                        <button className=' btnbureau'>EN SAVOIR PLUS</button>
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-sm-12 col-lg-6 pt-5 '>
-                    <img src={IMG} alt="photo" height={'504px'} width={'504px'} />
+                    <img src={IMG} alt="photo" height={'504px'} width={'100%'} />
                 </div>
             </div>
 
@@ -33,15 +29,15 @@ function Bureau() {
                 <div className='p-5 col-12 col-md-6  col-lg-6 d-flex justify-content-center align-items-center center-block'>
                     <div>
                         <h3>
-                            Notre Histoire en Quelques Tuiles
+                            Inline sécurité
                         </h3>
 
 
 
                         <p>
-                            Depuis 30 ans, EM Couverture s'est taillé une réputation impeccable dans le monde des toits à Monaco. Nous avons réinventé la couverture, tout en gardant nos pieds (et nos tuiles) sur terre. Découvrez notre parcours unique et notre engagement envers l'excellence.
+                            Massa eget egestas purus viverra. Nisi scelerisque eu ultrices vitae. Orci eu lobortis elementum nibh tellus molestie nunc non. Ultrices in iaculis nunc sed augue lacus viverra. Consequat semper viverra nam libero justo laoreet sit. Nibh praesent tristique magna sit amet. Vulputate enim nulla aliquet porttitor. Dui nunc mattis enim ut tellus elementum sagittis.
                         </p>
-                        <button className='btn btn-outline-light text-dark'>EN SAVOIR PLUS</button>
+                        <button className='btnbureau'>EN SAVOIR PLUS</button>
                     </div>
                 </div>
 

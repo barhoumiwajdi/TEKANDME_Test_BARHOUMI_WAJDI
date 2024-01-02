@@ -54,5 +54,26 @@
 
 .contactrow {
     margin-top: -50px !important;
-    margin-bottom: -50px !important;
+    margin-bottom: -50px;
+}
+
+@media screen and (max-width: 770px) {
+
+    .prenoncontact h2 {
+        color: var(--Blanc-Blanc, #FCFCFC);
+
+        font-family: Orbitron;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+
+        text-transform: uppercase;
+    }
+
+    .contactrow {
+        margin-top: 50px !important;
+        margin-bottom: -50px;
+    }
+
 }

@@ -1,5 +1,9 @@
 import React from 'react'
 import './LogoCarousel.css'
+import img1 from '../Assets/image 63.png'
+import img2 from '../Assets/image 64.png'
+import img3 from '../Assets/image 65.png'
+import img4 from '../Assets/image 66.png'
 function LogoCarousel() {
     return (
 
@@ -35,49 +39,38 @@ function LogoCarousel() {
                             <div className="carousel-inner px-5">
                                 <div className="carousel-item active">
                                     <div className="row">
-                                        <div className="col-6 col-lg-2 align-self-center">
-                                            <img className="d-block w-100 px-3 mb-3" src="https://cdn.livecanvas.com/media/logos/11.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100 align-self-center">
+                                            <img className="d-block w-100  px-3 mb-3" src={img1} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/2.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100 align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img2} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/3.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100  align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img3} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/12.png" alt="" />
+                                        <div className="col-6 col-lg-3 h-100 align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img4} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/5.png" alt="" />
-                                        </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/6.png" alt="" />
-                                        </div>
+
                                     </div>
 
                                 </div>
                                 <div className="carousel-item">
                                     <div className="row">
-                                        <div className="col-6 col-lg-2 align-self-center">
-                                            <img className="d-block w-100 px-3 mb-3" src="https://cdn.livecanvas.com/media/logos/11.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100 align-self-center">
+                                            <img className="d-block w-100  px-3 mb-3" src={img1} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/2.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100 align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img2} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/3.png" alt="" />
+                                        <div className="col-6 col-lg-3  h-100  align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img3} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/12.png" alt="" />
+                                        <div className="col-6 col-lg-3 h-100 align-self-center">
+                                            <img className="d-block w-100 px-3  mb-3" src={img4} alt="" />
                                         </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/5.png" alt="" />
-                                        </div>
-                                        <div className="col-6 col-lg-2  align-self-center">
-                                            <img className="d-block w-100 px-3  mb-3" src="https://cdn.livecanvas.com/media/logos/6.png" alt="" />
-                                        </div>
-                                    </div>
 
+                                    </div>
                                 </div>
 
                             </div>

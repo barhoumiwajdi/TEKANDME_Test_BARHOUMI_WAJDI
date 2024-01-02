@@ -122,13 +122,14 @@
 
  .NosService h3 {
 
-     color: var(--Blanc-Blanc, #FCFCFC);
+     color: var(--Noir-Noir, #2B2B2B);
+     text-align: center;
      font-family: Orbitron;
-     font-size: 24px;
+     font-size: 40px;
      font-style: normal;
      font-weight: 700;
-     line-height: 32px;
-     /* 133.333% */
+     line-height: 56px;
+     /* 140% */
      text-transform: uppercase;
  }
 
