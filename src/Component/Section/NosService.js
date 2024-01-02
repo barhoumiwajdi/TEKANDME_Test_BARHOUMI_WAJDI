@@ -73,7 +73,7 @@ function NosService() {
                     </div>
                 </div>
                 <div className='btnService mt-5 d-flex justify-content-center align-items-center'>
-                    <button className='btn buttonservice '> voir tous nos services</button>
+                    <button className='buttonservice '> voir tous nos services</button>
                 </div>
             </div>
         </div>

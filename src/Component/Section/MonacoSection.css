@@ -1,4 +1,4 @@
-.calltoaction {
+.MonacoSection {
     background-image: linear-gradient(to right, #2B2B2B, rgba(43, 43, 43, 1), rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0.5)), url('../../Assets/Image-arrière-plan.jpg');
     height: 100%;
 
@@ -27,7 +27,7 @@ img#castor {
     }
 }
 
-.calltoaction h3 {
+.MonacoSection h3 {
     color: var(--Blanc-Blanc, #FCFCFC);
     /* Titres/H3 */
     font-family: Orbitron;
@@ -39,7 +39,7 @@ img#castor {
     text-transform: uppercase;
 }
 
-.calltoaction span {
+.MonacoSection span {
     color: var(--Jaune, #F4C02F);
 
     font-family: Orbitron;
@@ -50,7 +50,7 @@ img#castor {
     text-transform: uppercase;
 }
 
-.calltoaction p {
+.MonacoSection p {
     color: var(--blanc-blanc-70, rgba(252, 252, 252, 0.70));
 
 

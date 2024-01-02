@@ -1,7 +1,7 @@
 import React from 'react'
 import IMG from '../../Assets/IMG.png'
-import './Histoire.css'
-function Histoire() {
+import './HistoireSection.css'
+function HistoireSection() {
     return (
 
         <div className='container pt-5  mb-5 SectionHistoire' >
@@ -29,4 +29,4 @@ function Histoire() {
     )
 }
 
-export default Histoire
+export default HistoireSection
