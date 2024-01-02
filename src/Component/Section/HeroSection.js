@@ -10,13 +10,13 @@ function HeroSection() {
         const playVideo = () => {
             if (video) {
                 video.play().catch(error => {
-                    // Autoplay was prevented, handle it here
+
                     console.error('Autoplay prevented:', error);
                 });
             }
         };
 
-        // Simulate a user click to start video playback
+
         playVideo();
     }, []);
 

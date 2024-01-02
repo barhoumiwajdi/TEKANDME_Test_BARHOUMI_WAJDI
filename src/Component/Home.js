@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../Layout/Navbar'
-import HeroSection from '../Layout/HeroSection'
+
 
 
 
@@ -22,6 +22,7 @@ import StatsSection from '../Widgets/StatsSection'
 import MonacoSection from './Section/MonacoSection'
 import PublicationInstagramSection from '../Widgets/PublicationInstagramSection'
 import RealisationSection from './RealisationSection'
+import HeroSection from './Section/HeroSection'
 
 function Home() {
     return (

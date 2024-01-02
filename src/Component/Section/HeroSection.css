@@ -24,21 +24,16 @@
 
 .hero-text {
     position: absolute;
-    bottom: 10px;
-    /* Adjust as needed */
-    left: 10px;
-    /* Adjust as needed */
+    bottom: 50px;
+    left: 50px;
     text-align: left;
     color: white;
-    /* Adjust text color as needed */
     z-index: 1;
-    /* Ensure the text is above the video */
-
 }
 
 .hero-section li {
     color: var(--Jaune, #F4C02F) !important;
-    font-family: Orbitron;
+    font-family: 'Orbitron';
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -50,13 +45,11 @@
 
 .hero-section h3 {
     color: var(--Blanc-Blanc, #FCFCFC);
-    /* Titres/H3 */
-    font-family: Orbitron;
+    font-family: 'Orbitron';
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
-    /* 140% */
     text-transform: uppercase;
     text-align: left;
 }
@@ -64,13 +57,11 @@
 .hero-section p {
     color: var(--blanc-blanc-70, rgba(252, 252, 252, 0.70));
     /* Text/Grand texte */
-    font-family: Manrope;
+    font-family: 'Orbitron';
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
     text-align: left;
-
-    /* 177.778% */
 
 }
