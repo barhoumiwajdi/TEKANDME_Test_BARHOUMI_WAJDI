@@ -19,9 +19,10 @@
     width: 100%;
     color: black;
     height: 100%;
-    background-color: white;
+    background-color: #EDF0F3;
     background-size: cover;
     z-index: -1;
+
 }
 
 .sectionArt h6 {

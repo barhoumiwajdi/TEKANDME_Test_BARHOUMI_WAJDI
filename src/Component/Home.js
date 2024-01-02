@@ -25,26 +25,26 @@ function Home() {
         <>
             <Navbar />
             <HeroSection />
-            <div className="container-fluid " style={{ backgroundColor: '#EDF0F3 ' }}>
-                <HistoireSection />
-                <MonacoSection />
-                <StatsSection />
-                <NosService />
-                <VideoSection />
-            </div>
+
+            <HistoireSection />
+            <MonacoSection />
+            <StatsSection />
+
+            <NosService />
+            <VideoSection />
             <ArtSection />
-            <div className="container-fluid " style={{ backgroundColor: '#EDF0F3 ' }}>
 
-                <Bureau />
 
-                <PrenonContact />
+            <Bureau />
 
-                <LogoCarousel />
-                <Projet />
+            <PrenonContact />
 
-                <RealisationSection />
-                <PublicationInstagramSection />
-            </div>
+            <LogoCarousel />
+            <Projet />
+
+            <RealisationSection />
+            <PublicationInstagramSection />
+
             <Footer />
             {/*  
 
