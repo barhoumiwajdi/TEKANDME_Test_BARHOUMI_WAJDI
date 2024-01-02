@@ -1,12 +1,12 @@
-.prenoncontact {
-    background-image: linear-gradient(to right, #2B2B2B, rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0)), url('../Assets/PrenonContact.png');
+.AvisSection {
+    background-image: linear-gradient(to right, #2B2B2B, rgba(43, 43, 43, 0.9), rgba(43, 43, 43, 0)), url('../../Assets/PrenonContact.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 300px !important;
 }
 
-.prenoncontact h2 {
+.AvisSection h2 {
     color: var(--Blanc-Blanc, #FCFCFC);
 
     font-family: Orbitron;
@@ -18,7 +18,7 @@
     text-transform: uppercase;
 }
 
-.prenoncontact p {
+.AvisSection p {
     color: var(--Noir, #171C24);
     /* Text/Texte */
     font-family: Manrope;
@@ -30,7 +30,7 @@
     opacity: 0.7;
 }
 
-.prenoncontact h4 {
+.AvisSection h4 {
     color: var(--Noir, #171C24);
     /* Text/Mini texte */
     font-family: Orbitron;
@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 770px) {
 
-    .prenoncontact h2 {
+    .AvisSection h2 {
         color: var(--Blanc-Blanc, #FCFCFC);
 
         font-family: Orbitron;

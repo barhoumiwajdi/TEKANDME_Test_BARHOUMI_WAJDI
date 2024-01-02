@@ -1,6 +1,6 @@
 import React from 'react'
-import IMG from '../Assets/IMGBureau.png'
-import IMG2 from '../Assets/image 69.png'
+import IMG from '../../Assets/IMGBureau.png'
+import IMG2 from '../../Assets/image 69.png'
 import('./Bureau.css')
 function Bureau() {
     return (

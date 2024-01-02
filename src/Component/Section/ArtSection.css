@@ -1,16 +1,11 @@
 .scrolling-element {
-
-    /* Adjust the height based on your content */
-
     margin-bottom: 20px;
-
 }
 
 .sectionArt {
     min-height: 100vh;
 }
 
-.content {}
 
 .fixed-background1 {
     position: fixed;

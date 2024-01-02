@@ -1,24 +1,16 @@
 .nav-item {
     color: var(--noir-noir-50, rgba(43, 43, 43, 0.50));
-
-    /* Text/Mini texte */
     font-family: Orbitron;
     font-size: 14px;
     font-style: normal;
     font-weight: 800;
     line-height: 24px;
-    /* 171.429% */
     text-transform: uppercase;
-
 }
-
-
 
 .nav-link:hover {
     text-decoration: underline rgba(244, 192, 47, 1);
-
 }
-
 
 .Contactbtn {
     border-top: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
@@ -33,13 +25,14 @@
     gap: 8px;
     color: var(--Noir-Noir, #2B2B2B);
     text-align: center;
-
-    /* Text/Mini texte */
     font-family: Orbitron;
     font-size: 14px;
     font-style: normal;
     font-weight: 800;
     line-height: 24px;
-    /* 171.429% */
     text-transform: uppercase;
+}
+
+.navbar {
+    z-index: 100 !important;
 }

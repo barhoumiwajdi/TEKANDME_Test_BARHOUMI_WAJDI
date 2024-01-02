@@ -4,8 +4,8 @@ import './HistoireSection.css'
 function HistoireSection() {
     return (
 
-        <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
-            <div className='container   SectionHistoire' >
+        <div className='container-fluid w-100 pt-5  pb-5' style={{ backgroundColor: '#EDF0F3' }}>
+            <div className='container   SectionHistoire pt-5' >
                 <div className='row d-flex pt-5'>
                     <div className='col-12 col-md-6 col-sm-12 col-lg-6 '>
                         <img src={IMG} alt="Logo" height={'90%'} width={'90%'} />

@@ -6,34 +6,27 @@
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
-    /* 140% */
     text-transform: uppercase;
-
 }
 
 .container.logocarousel {
     margin-top: 150px !important;
 }
 
-/* .logocarousel .carousel .row .col-lg-3,
-.logocarousel .carousel .row .col-6 {
-    display: flex;
-    width: 288px;
-    height: 144px;
-    padding: 12px 84px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    background-color: white;
-} */
 
 .logocarousel svg {
-
+    border: 3px solid var(--Blanc-Blanc, #FCFCFC);
+    background: var(--noir-noir-50, rgba(43, 43, 43, 0.50));
+    backdrop-filter: blur(5px);
+    display: flex;
     width: 40px;
     height: 40px;
     padding: 4px;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
-    background: var(--Noir-Noir, #2B2B2B);
+    width: 32px;
+    height: 32px;
+
+    flex-shrink: 0;
 }

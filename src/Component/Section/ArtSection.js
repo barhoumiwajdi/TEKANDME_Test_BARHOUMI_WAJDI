@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './ArtSection.css';
-import cardimg1 from '../Assets/card-img1.png';
-import cardimg2 from '../Assets/card-img2.png';
-import cardimg3 from '../Assets/card-img3.png';
+import cardimg1 from '../../Assets/card-img1.png';
+import cardimg2 from '../../Assets/card-img2.png';
+import cardimg3 from '../../Assets/card-img3.png';
 
 function ArtSection() {
     const [opacity, setOpacity] = useState(1);
@@ -23,12 +23,14 @@ function ArtSection() {
                 const scrollDirection = currentScrollY > prevScrollY.current ? 'down' : 'up';
 
                 // Calculate opacity based on the scroll direction and section height
-                const newOpacity = scrollDirection === 'up' ? 1 : 1 - Math.max(0, 1 - rect.top / viewportHeight);
+                const newOpacity = scrollDirection === 'down' ? 1 : 1 - Math.max(0, 1 - rect.top / viewportHeight);
+                const newOpacity1 = scrollDirection === 'up' ? 1 : 1 - Math.max(0, 1 - rect.top / viewportHeight);
 
                 // Calculate parallax effect
                 const newParallaxOffset = -rect.top * 0.5; // Adjust the multiplier for the desired parallax effect
 
                 setOpacity(newOpacity);
+                setOpacity(newOpacity1);
                 setParallaxOffset(newParallaxOffset);
                 prevScrollY.current = currentScrollY;
             }

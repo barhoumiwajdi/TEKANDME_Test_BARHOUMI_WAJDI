@@ -5,7 +5,7 @@ import flagmn from '../../Assets/MC - Monaco.png'
 import flagfr from '../../Assets/FR.png'
 function MonacoSection() {
     return (
-        <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
+        <div className='container-fluid w-100 pt-5 pb-5' style={{ backgroundColor: '#EDF0F3' }}>
             <div className=' container MonacoSection pt-5 '>
 
                 <div className='row d-flex ' style={{ height: '100%' }}>
