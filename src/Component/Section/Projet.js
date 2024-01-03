@@ -2,7 +2,7 @@ import React from 'react'
 import './Projet.css'
 function Projet() {
     return (
-        <div className='container-fluid Projectsection w-100' style={{ backgroundColor: '#EDF0F3' }}>
+        <div className='container-fluid Projectsection' style={{ backgroundColor: '#EDF0F3 !important' }}>
 
             <div className='row'>
                 <div className='col-12 col-md-8 col-lg-8'>

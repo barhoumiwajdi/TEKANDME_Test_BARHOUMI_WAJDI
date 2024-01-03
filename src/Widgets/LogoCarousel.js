@@ -6,7 +6,7 @@ import img3 from '../Assets/image 65.png'
 import img4 from '../Assets/image 66.png'
 function LogoCarousel() {
     return (
-        <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
+        <div className='container-fluid w-100 pb-5 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
             <div className="container logocarousel ">
                 <div className='text-center d-flex justify-content-center align-items-center'>
                     <h2 className='me-5' >Ils parlent de nous</h2>

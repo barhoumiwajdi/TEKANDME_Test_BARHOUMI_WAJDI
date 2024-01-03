@@ -14,7 +14,7 @@
 }
 
 .iterroSection {
-    background-image: url('../../Assets/Rectangle\ 34624381.png');
+
     background-repeat: no-repeat;
     background-position: center center;
     margin: 0;
@@ -109,6 +109,9 @@
 }
 
 .accordion-item {
-    border: none;
+    border-bottom: 1px solid var(--noir-noir-12, rgba(43, 43, 43, 0.12));
+    border-top: none;
+    border-right: none;
+    border-left: none;
 
 }

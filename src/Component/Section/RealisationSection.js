@@ -1,6 +1,6 @@
 import React from 'react'
 import './RealisationSection.css'
-import homme from '../../Assets/AdobeStock_628117056 1.png'
+import homme from '../../Assets/Image position sticky.png'
 function RealisationSection() {
   return (
     <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
@@ -52,25 +52,26 @@ function RealisationSection() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.
                   </div>
                 </div>
-                <div className="accordion-item">
-                  <h2 className="accordion-header" id="headingFour">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Les chats et les chiens ont-ils des cours de danse sur les toits la nuit ?
-                      <span className="accordion-icon"></span>
-                    </button>
-                  </h2>
-                  <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div className="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.
-                    </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingFour">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Les chats et les chiens ont-ils des cours de danse sur les toits la nuit ?
+                    <span className="accordion-icon"></span>
+                  </button>
+                </h2>
+                <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div className="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
+    </div >
   )
 }
 
