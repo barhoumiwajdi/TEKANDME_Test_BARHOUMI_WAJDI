@@ -15,7 +15,7 @@ function VideoSection() {
 
                             <p className="mt-5 ">
                                 Découvrez la villa Carmelha à{' '}
-                                <img src={flagmn} alt="image" className="m-2 me-5" />
+                                <img src={flagmn} alt="img" className="m-2 me-5" />
                                 <button className="btn btn-service text-center text-white align-items-center justify-content-center bg-dark">
                                     voir le projet
                                 </button>
@@ -48,13 +48,13 @@ function VideoSection() {
                                     height={'100%'}
                                     width={'100%'}
                                     src={castor}
-                                    alt="Castor Icon"
+                                    alt="img "
                                     className="castor-image col-3"
                                 />
                             </div>
 
                             <button className="btnVideo mt-5">
-                                <img height={'24px'} width={'24px'} src={youtubeicon} alt="YouTube Icon" />
+                                <img height={'24px'} width={'24px'} src={youtubeicon} alt="img" />
                                 Voir notre chaine youtube
                             </button>
                         </div>

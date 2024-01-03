@@ -11,8 +11,8 @@ function MonacoSection() {
                 <div className='row d-flex ' style={{ height: '100%' }}>
                     <div className='col-12 col-md-8 col-lg-8 col-xs-12   d-flex justify-content-center align-items-center center-block text-white p-5'>
                         <div className='section'>
-                            <img src={flagmn} alt='image' className='m-2' />
-                            <img src={flagfr} alt='image' className='m-2' />
+                            <img src={flagmn} alt='img' className='m-2' />
+                            <img src={flagfr} alt='img' className='m-2' />
                             <h3>
                                 Numéro 1 à  <span>monaco</span>  et en région <span>PACA</span>
                             </h3>
@@ -26,7 +26,7 @@ function MonacoSection() {
                     </div>
                     <div className='col-12 col-md-4 col-lg-4 col-xs-12 d-flex  align-items-end justify-content-center CastorRow ' style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1) !important' }} >
                         <div className='castor'>
-                            <img src={castor} alt='image' width={'100%'} height={'100%'} id='castor' />
+                            <img src={castor} alt='img' width={'100%'} height={'100%'} id='castor' />
                         </div>
                     </div>
                 </div>

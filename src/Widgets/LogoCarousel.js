@@ -32,8 +32,8 @@ function LogoCarousel() {
                                 <div className="carousel-inner px-5">
                                     <div className="carousel-item active">
                                         <div className="row d-flex justify-content-between" style={{ height: '100%', backgroundColor: '#fff' }}>
-                                            <div className="col col-lg-3 ci h-100 align-self-center ">
-                                                <img className="d-block w-100 px-3 mb-3" src={img1} alt="" style={{ height: '100%', backgroundColor: '#fff' }} />
+                                            <div className="col col-lg-3 ci h-100 align-self-center" style={{ backgroundColor: '#fff' }}>
+                                                <img className="d-block w-100 px-3 mb-3" src={img1} alt="" />
                                             </div>
                                             <div className="col col-lg-3 ci h-100 align-self-center">
                                                 <img className="d-block w-100 px-3 mb-3" src={img2} alt="" />
