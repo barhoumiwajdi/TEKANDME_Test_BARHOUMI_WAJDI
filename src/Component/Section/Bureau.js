@@ -13,8 +13,7 @@ function Bureau() {
                             <h3>
                                 Un bureau d’études innovant
                             </h3>
-                            <p>
-                                Derrière chaque toit exceptionnel se cache une équipe de cerveaux brillants. Notre bureau d'études est l'endroit où l'innovation et la précision se marient pour créer des toits qui défient les conventions. Nous faisons des calculs pour que vous n'ayez pas à le faire !                        </p>
+                            <p> Derrière chaque toit exceptionnel se cache une équipe de cerveaux brillants. Notre bureau d'études est l'endroit où l'innovation et la précision se marient pour créer des toits qui défient les conventions. Nous faisons des calculs pour que vous n'ayez pas à le faire !                        </p>
                             <button className=' btnbureau'>EN SAVOIR PLUS</button>
                         </div>
                     </div>

@@ -9,7 +9,7 @@ function FAQSECTION() {
         <div className='row'>
           <div className='col-12 col-md-6 col-lg-6 iterroSection'>
 
-            <img src={homme} alt='image' height={'696px'} width={'496px'} />
+            <img src={homme} alt='img' height={'696px'} width={'496px'} />
           </div>
           <div className='col-12 col-md-6 col-lg-6 '>
             <h3>Vos Interrogations Sous le Toit de l'Humour</h3>

@@ -23,7 +23,6 @@ function HistoireSection() {
                     </div>
                 </div>
             </div>
-
         </div>
 
     )

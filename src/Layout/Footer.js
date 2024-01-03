@@ -27,19 +27,19 @@ function Footer() {
                             <h4>Navigation</h4>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+                                    <a class="nav-link active" aria-current="page" href="/#">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">A propos</a>
+                                    <a class="nav-link" href="/#">A propos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Bureau d’études</a>
+                                    <a class="nav-link" href="/#">Bureau d’études</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Travaux</a>
+                                    <a class="nav-link" href="/#">Travaux</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Actualités</a>
+                                    <a class="nav-link" href="/#">Actualités</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,16 +47,16 @@ function Footer() {
                             <h4>Services</h4>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link " href="/">Charpente</a>
+                                    <a class="nav-link " href="/#">Charpente</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Couverture</a>
+                                    <a class="nav-link" href="/#">Couverture</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Zinguerie</a>
+                                    <a class="nav-link" href="/#">Zinguerie</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/">Façades</a>
+                                    <a class="nav-link" href="/#">Façades</a>
                                 </li>
                             </ul>
                         </div>

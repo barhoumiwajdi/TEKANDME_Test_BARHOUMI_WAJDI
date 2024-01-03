@@ -66,6 +66,7 @@ function ArtSection() {
                         </div>
                     </div>
                     <div className='row mt-5 mb-5'>
+
                         <div className="scrolling-element d-flex justify-content-end align-items-end mt-5 mb-5 ">
                             <div className="card   col-12 col-md-4 col-lg-4">
                                 <img src={cardimg2} className="card-img-top p-2" alt="..." />
