@@ -8,7 +8,7 @@ function Footer() {
             <div className='container '>
                 <div className='row  pt-5'>
                     <div className='col-12 col-md-8 col-lg-8'>
-                        <img src={logo} alt='logo' height={'44px'} width={'104px'} />
+                        <img src={logo} height={'44px'} width={'104px'} alt='' />
                         <h3>prenez rendez-vous dès maintenant</h3>
                         <a className='d-flex'> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M18.364 17.364L12 23.7279L5.63604 17.364C2.12132 13.8492 2.12132 8.15076 5.63604 4.63604C9.15076 1.12132 14.8492 1.12132 18.364 4.63604C21.8787 8.15076 21.8787 13.8492 18.364 17.364ZM12 13C13.1046 13 14 12.1046 14 11C14 9.89543 13.1046 9 12 9C10.8954 9 10 9.89543 10 11C10 12.1046 10.8954 13 12 13Z" fill="#2B2B2B" fill-opacity="0.7" />
@@ -27,19 +27,19 @@ function Footer() {
                             <h4>Navigation</h4>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                    <a class="nav-link active" aria-current="page" href="/">Accueil</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">A propos</a>
+                                    <a class="nav-link" href="/">A propos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Bureau d’études</a>
+                                    <a class="nav-link" href="/">Bureau d’études</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Travaux</a>
+                                    <a class="nav-link" href="/">Travaux</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Actualités</a>
+                                    <a class="nav-link" href="/">Actualités</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,16 +47,16 @@ function Footer() {
                             <h4>Services</h4>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">Charpente</a>
+                                    <a class="nav-link " href="/">Charpente</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Couverture</a>
+                                    <a class="nav-link" href="/">Couverture</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Zinguerie</a>
+                                    <a class="nav-link" href="/">Zinguerie</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Façades</a>
+                                    <a class="nav-link" href="/">Façades</a>
                                 </li>
                             </ul>
                         </div>
@@ -67,7 +67,7 @@ function Footer() {
                         © 2023, tous droits réservés. Développé par Tendances.Group
                     </div>
                     <div className='col-12 col-md-2 col-lg-2'>
-                        <img src={castor} />
+                        <img src={castor} alt='' />
                     </div>
                     <div className='col-12 col-md-4 col-lg-4 d-flex justify-content-center align-items-center'>
                         <a className='me-2'>

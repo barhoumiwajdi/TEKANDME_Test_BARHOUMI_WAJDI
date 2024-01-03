@@ -1,11 +1,11 @@
 import React from 'react'
-import './RealisationSection.css'
+import './FAQSection.css'
 import homme from '../../Assets/Image position sticky.png'
-function RealisationSection() {
+function FAQSECTION() {
   return (
     <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
 
-      <div className="container RealisationSection">
+      <div className="container FAQ">
         <div className='row'>
           <div className='col-12 col-md-6 col-lg-6 iterroSection'>
 
@@ -75,4 +75,4 @@ function RealisationSection() {
   )
 }
 
-export default RealisationSection
+export default FAQSECTION

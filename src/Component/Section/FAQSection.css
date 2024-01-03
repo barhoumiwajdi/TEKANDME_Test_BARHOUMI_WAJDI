@@ -1,8 +1,8 @@
-.RealisationSection {
+.FAQ {
     margin-top: 150px;
 }
 
-.RealisationSection h3 {
+.FAQ h3 {
     color: var(--Noir-Noir, #2B2B2B);
     font-family: Orbitron;
     font-size: 40px;
@@ -23,7 +23,7 @@
     justify-content: center;
 }
 
-.RealisationSection h2 {
+.FAQ h2 {
     color: var(--Noir-Noir, #2B2B2B);
     font-family: Orbitron;
     font-size: 24px;
@@ -36,7 +36,7 @@
 
 
 @media screen and (max-width: 770px) {
-    .RealisationSection h3 {
+    .FAQ h3 {
         color: var(--Noir-Noir, #2B2B2B);
         text-align: center;
         /* Titres/H1 */
@@ -50,7 +50,7 @@
     }
 }
 
-.RealisationSection .accordion-button {
+.FAQ .accordion-button {
     color: var(--Noir-Noir, #2B2B2B);
     font-family: Orbitron;
     font-size: 24px;
@@ -61,7 +61,7 @@
     text-transform: uppercase;
 }
 
-.RealisationSection .accordion-body {
+.FAQ .accordion-body {
     color: var(--Noir-Noir, #2B2B2B);
     font-family: Manrope;
     font-size: 18px;

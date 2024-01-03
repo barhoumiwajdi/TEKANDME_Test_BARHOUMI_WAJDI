@@ -19,7 +19,7 @@ function Bureau() {
                         </div>
                     </div>
                     <div className='col-12 col-md-6 col-sm-12 col-lg-6 pt-5 '>
-                        <img src={IMG} alt="photo" height={'504px'} width={'504px'} />
+                        <img src={IMG} alt="img" height={'504px'} width={'504px'} />
                     </div>
                 </div>
 
