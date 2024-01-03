@@ -4,11 +4,11 @@ import IMG2 from '../../Assets/image 69.png'
 import('./Bureau.css')
 function Bureau() {
     return (
-        <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
+        <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }} >
             <div className=' container Bureau   pt-5    ' >
                 <div className='row d-flex'>
 
-                    <div className='p-5 col-12 col-md-6  col-lg-6 d-flex justify-content-center align-items-center center-block'>
+                    <div className='  col-12 col-md-6  col-lg-6 d-flex justify-content-center align-items-center center-block'>
                         <div>
                             <h3>
                                 Un bureau d’études innovant
@@ -19,22 +19,19 @@ function Bureau() {
                         </div>
                     </div>
                     <div className='col-12 col-md-6 col-sm-12 col-lg-6 pt-5 '>
-                        <img src={IMG} alt="photo" height={'504px'} width={'100%'} />
+                        <img src={IMG} alt="photo" height={'504px'} width={'504px'} />
                     </div>
                 </div>
 
                 <div className='row d-flex mt-2 '>
-                    <div className='col-12 col-md-6 col-sm-12 col-lg-6 pt-5 security d-flex justify-content-center align-items-center '>
-                        <img src={IMG2} alt="Logo" height={'144'} width={'288'} />
+                    <div className='col-12 col-md-6 col-lg-6 pt-5 security d-flex justify-content-center align-items-center '>
+                        <img src={IMG2} alt="Logo" height={'144px'} width={'288px'} />
                     </div>
-                    <div className='p-5 col-12 col-md-6  col-lg-6 d-flex justify-content-center align-items-center center-block'>
+                    <div className='col-12 col-md-6   col-lg-6 d-flex justify-content-center align-items-center  ' style={{ paddingLeft: '128px' }}>
                         <div>
                             <h3>
                                 Inline sécurité
                             </h3>
-
-
-
                             <p>
                                 Massa eget egestas purus viverra. Nisi scelerisque eu ultrices vitae. Orci eu lobortis elementum nibh tellus molestie nunc non. Ultrices in iaculis nunc sed augue lacus viverra. Consequat semper viverra nam libero justo laoreet sit. Nibh praesent tristique magna sit amet. Vulputate enim nulla aliquet porttitor. Dui nunc mattis enim ut tellus elementum sagittis.
                             </p>

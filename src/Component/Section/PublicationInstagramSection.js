@@ -11,66 +11,71 @@ function PublicationInstagramSection() {
             <div className="container section1 ">
                 <h3 >Ce qu’il se passe sur insta</h3>
                 <div className=' d-flex justify-content-center align-items-center'>
+                    <div>
+                        <a className="carousel-control-prev position-relative d-inline " href="#carouselLogos1" data-bs-slide="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M21 8L13 16L21 24" stroke="#FCFCFC" stroke-width="2" />
+                            </svg>
+                            <span className="visually-hidden">Previous</span>
+                        </a>
+                    </div>
+                    <div>
+                        <div className="row ">
+                            <div className="col-md-12">
+                                <div className="lc-block">
+                                    <div id="carouselLogos1" className="carousel slide pt-5 pb-4" data-bs-ride="carousel">
 
-                    <a className="carousel-control-prev position-relative d-inline " href="#carouselLogos1" data-bs-slide="prev">
-                        <svg width="2em" height="2em" viewBox="0 0 16 16" className="text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
-                        </svg>
-                        <span className="visually-hidden">Previous</span>
-                    </a>
-                    <div className="row ">
-                        <div className="col-md-12">
-                            <div className="lc-block">
-                                <div id="carouselLogos1" className="carousel slide pt-5 pb-4" data-bs-ride="carousel">
+                                        <div className="carousel-inner ">
+                                            <div className="carousel-item active">
+                                                <div className="row">
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
+                                                        <img className="d-block w-100   " src={img1} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
+                                                        <img className="d-block w-100  " src={img2} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100  align-self-center">
+                                                        <img className="d-block w-100  " src={img3} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3 h-100 align-self-center">
+                                                        <img className="d-block w-100  " src={img4} alt="" />
+                                                    </div>
 
-                                    <div className="carousel-inner ">
-                                        <div className="carousel-item active">
-                                            <div className="row">
-                                                <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
-                                                    <img className="d-block w-100   " src={img1} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
-                                                    <img className="d-block w-100  " src={img2} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3  h-100  align-self-center">
-                                                    <img className="d-block w-100  " src={img3} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3 h-100 align-self-center">
-                                                    <img className="d-block w-100  " src={img4} alt="" />
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                        <div className="carousel-item">
-                                            <div className="row">
-                                                <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
-                                                    <img className="d-block w-100   " src={img1} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
-                                                    <img className="d-block w-100  " src={img2} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3  h-100  align-self-center">
-                                                    <img className="d-block w-100  " src={img3} alt="" />
-                                                </div>
-                                                <div className="col-6 col-md-3 col-lg-3 h-100 align-self-center">
-                                                    <img className="d-block w-100  " src={img4} alt="" />
                                                 </div>
 
                                             </div>
-                                        </div>
+                                            <div className="carousel-item">
+                                                <div className="row">
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
+                                                        <img className="d-block w-100   " src={img1} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100 align-self-center">
+                                                        <img className="d-block w-100  " src={img2} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3  h-100  align-self-center">
+                                                        <img className="d-block w-100  " src={img3} alt="" />
+                                                    </div>
+                                                    <div className="col-6 col-md-3 col-lg-3 h-100 align-self-center">
+                                                        <img className="d-block w-100  " src={img4} alt="" />
+                                                    </div>
 
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a className="carousel-control-next position-relative d-inline" href="#carouselLogos1" data-bs-slide="next">
-                        <svg width="2em" height="2em" viewBox="0 0 16 16" className="text-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                        </svg>
-                        <span className="visually-hidden">Next</span>
-                    </a>
+                    <div>
+                        <a className="carousel-control-next position-relative d-inline" href="#carouselLogos1" data-bs-slide="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M11 24L19 16L11 8" stroke="#FCFCFC" stroke-width="2" />
+                            </svg>
+                            <span className="visually-hidden">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className='btnService mt-5 d-flex justify-content-center align-items-center'>

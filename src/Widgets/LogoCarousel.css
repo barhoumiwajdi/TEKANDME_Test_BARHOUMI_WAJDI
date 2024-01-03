@@ -30,3 +30,8 @@
 
     flex-shrink: 0;
 }
+
+.ci {
+    background-color: white;
+    /* margin-left: 5px !important; */
+}

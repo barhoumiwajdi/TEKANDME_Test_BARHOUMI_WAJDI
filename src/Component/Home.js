@@ -19,7 +19,7 @@ import AvisSection from './Section/AvisSection'
 function Home() {
     return (
         <>
-            <Navbar />
+
             <HeroSection />
             <HistoireSection />
             <MonacoSection />
@@ -33,7 +33,7 @@ function Home() {
             <Projet />
             <RealisationSection />
             <PublicationInstagramSection />
-            <Footer />
+
 
         </>
     )

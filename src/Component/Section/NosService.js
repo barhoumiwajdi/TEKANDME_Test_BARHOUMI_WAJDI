@@ -10,8 +10,8 @@ function NosService() {
             <div className='NosService container mt-5'>
 
 
-                <h3>Des Toits Qui Font la pluie et <br></br> le beau temps</h3>
-                <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+                <h3 className='mb-5'>Des Toits Qui Font la pluie et <br></br> le beau temps</h3>
+                <div id="carouselExampleControls" className="carousel slide mb-3" data-bs-ride="carousel">
                     <div className="carousel-inner">
 
                         <div className="carousel-item active ">
@@ -78,7 +78,7 @@ function NosService() {
                             </div>
                         </div>
                     </div>
-                    <div className='btnService mt-5 d-flex justify-content-center align-items-center'>
+                    <div className='btnService mb-5 mt-5 d-flex justify-content-center align-items-center'>
                         <button className='buttonservice '> voir tous nos services</button>
                     </div>
                 </div>

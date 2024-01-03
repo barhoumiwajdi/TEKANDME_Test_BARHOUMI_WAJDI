@@ -24,7 +24,7 @@ function MonacoSection() {
                             <button style={{ color: 'black', backgroundColor: '#F4C02F' }} className='btn '>Prenons contact</button>
                         </div>
                     </div>
-                    <div className='col-12 col-md-4 col-lg-4 col-xs-12 d-flex  align-items-end justify-content-center CastorRow '  >
+                    <div className='col-12 col-md-4 col-lg-4 col-xs-12 d-flex  align-items-end justify-content-center CastorRow ' style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1) !important' }} >
                         <div className='castor'>
                             <img src={castor} alt='image' width={'100%'} height={'100%'} id='castor' />
                         </div>

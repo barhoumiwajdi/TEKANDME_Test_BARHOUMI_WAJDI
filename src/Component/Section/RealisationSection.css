@@ -13,12 +13,14 @@
     text-transform: uppercase;
 }
 
-.RealisationSection {
+.iterroSection {
     background-image: url('../../Assets/Rectangle\ 34624381.png');
     background-repeat: no-repeat;
-    background-position: bottom;
-    position: sticky;
-
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .RealisationSection h2 {
@@ -71,11 +73,42 @@
 
 .accordion-icon::after {
     content: "+";
-    display: inline-block;
-    margin-right: 5px;
-    /* Adjust the margin as needed */
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    opacity: 0.5;
+
 }
 
 .accordion-button[aria-expanded="true"] .accordion-icon::after {
     content: "-";
+}
+
+.accordion-button:not(.collapsed)::after {
+    display: none;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-item {
+    display: flex;
+    padding-bottom: 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+
+}
+
+.accordion-button,
+.accordion-item,
+.accordion {
+    background-color: #EDF0F3 !important;
+}
+
+.accordion-item {
+    border: none;
+
 }

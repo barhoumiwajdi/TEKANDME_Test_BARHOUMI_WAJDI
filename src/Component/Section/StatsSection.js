@@ -3,8 +3,8 @@ import './StatsSection.css'
 function StatsSection() {
     return (
         <div className='container-fluid w-100' style={{ backgroundColor: '#EDF0F3' }}>
-            <div className='container counter pt-5'>
-                <div className='row mt-5 p-5'>
+            <div className='container counter pt-5 pb-5'>
+                <div className='row mb-5 p-5'>
                     <div className='col mt-5 text-center'>
 
                         <h2 className="counter display-3 p-3 text-dark d-block">+30</h2>

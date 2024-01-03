@@ -7,13 +7,13 @@ import './VideoSection.css'; // Create a separate CSS file for styling
 function VideoSection() {
     return (
         <div className='container-fluid w-100 pt-5' style={{ backgroundColor: '#EDF0F3' }}>
-            <section className="video-section mt-5 d-flex justify-content-center align-items-center">
+            <section className="video-section  d-flex justify-content-center align-items-center">
                 <div className="container">
                     <div className="row text-center mt-5 mb-5">
-                        <div className="col-12 mt-5">
+                        <div className="col-12 mt-5 pb-5">
                             <h1 className="mt-5">Watch Our Latest Videos</h1>
 
-                            <p className="mt-5">
+                            <p className="mt-5 ">
                                 Découvrez la villa Carmelha à{' '}
                                 <img src={flagmn} alt="image" className="m-2 me-5" />
                                 <button className="btn btn-service text-center text-white align-items-center justify-content-center bg-dark">
@@ -21,7 +21,7 @@ function VideoSection() {
                                 </button>
                             </p>
 
-                            <div className="mt-5 d-flex justify-content-center align-items-center    ">
+                            <div className="mt-5 d-flex justify-content-center align-items-center pt-5    ">
                                 <div className="row-video-section">
                                     <video className="section-video" loop muted autoPlay playsInline>
                                         <source src="https://s3-figma-videos-production-sig.figma.com/video/930590723035425412/TEAM/0d1f/e6f0/-9a06-4529-8d8e-547ab140aa4e?Expires=1704672000&Signature=eDEvMIXcrl6aRc67pV3o~QtthINyQOplyqxPcNLoXjwk~kh7geEphwzdLd~99M2N2VWJ8Jir64Tc72hVVrUvCwAJVAhFwoteH-AnImS97qNBSscN~Inr-JTMInpwcCRVZ24tAfRFtLfMvdDz89S7odMydONDnxCyDI1Ny9xRZ~od0BQYUPmqwol03psSM~NPU6jafzLggNS49Y0WX3hjEldaceidBazGFUTsz0bLs~opoci0X2oftqGmxI3wWq7ZF313tFa~8-Ihvu7wPyVIJ~BqLM70hKTYjC4WpKUy7sjQlj4YdwJZ4TuoMZhIdr1LVP3OYNwiGC6WZZGHCfVcOQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" type="video/mp4" />
@@ -53,9 +53,9 @@ function VideoSection() {
                                 />
                             </div>
 
-                            <button className="btn btn-outline-light text-dark mt-5">
+                            <button className="btnVideo mt-5">
                                 <img height={'24px'} width={'24px'} src={youtubeicon} alt="YouTube Icon" />
-                                EN SAVOIR PLUS
+                                Voir notre chaine youtube
                             </button>
                         </div>
                     </div>

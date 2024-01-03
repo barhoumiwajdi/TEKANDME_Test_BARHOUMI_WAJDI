@@ -47,7 +47,7 @@ function Footer() {
                             <h4>Services</h4>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Charpente</a>
+                                    <a class="nav-link " href="#">Charpente</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Couverture</a>

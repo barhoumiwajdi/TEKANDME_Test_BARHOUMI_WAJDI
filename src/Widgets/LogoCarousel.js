@@ -31,34 +31,34 @@ function LogoCarousel() {
                             <div id="carouselLogos" className="carousel slide pt-5 pb-4" data-bs-ride="carousel">
                                 <div className="carousel-inner px-5">
                                     <div className="carousel-item active">
-                                        <div className="row">
-                                            <div className="col-6 col-lg-3  h-100 align-self-center">
-                                                <img className="d-block w-100  px-3 mb-3" src={img1} alt="" />
+                                        <div className="row d-flex justify-content-between" style={{ height: '100%', backgroundColor: '#fff' }}>
+                                            <div className="col col-lg-3 ci h-100 align-self-center ">
+                                                <img className="d-block w-100 px-3 mb-3" src={img1} alt="" style={{ height: '100%', backgroundColor: '#fff' }} />
                                             </div>
-                                            <div className="col-6 col-lg-3  h-100 align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img2} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center">
+                                                <img className="d-block w-100 px-3 mb-3" src={img2} alt="" />
                                             </div>
-                                            <div className="col-6 col-lg-3  h-100  align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img3} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center ">
+                                                <img className="d-block w-100 px-3 mb-3" src={img3} alt="" />
                                             </div>
-                                            <div className="col-6 col-lg-3 h-100 align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img4} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center  ">
+                                                <img className="d-block w-100 px-3 mb-3" src={img4} alt="" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="carousel-item">
-                                        <div className="row">
-                                            <div className="col-6 col-lg-3  h-100 align-self-center">
-                                                <img className="d-block w-100  px-3 mb-3" src={img1} alt="" />
+                                        <div className="row" style={{ height: '100%', backgroundColor: '#fff' }}>
+                                            <div className="col col-lg-3 ci h-100 align-self-center  ">
+                                                <img className="d-block w-100 px-3 mb-3" src={img1} alt="" />
                                             </div>
-                                            <div className="col-6 col-lg-3  h-100 align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img2} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center mb-3">
+                                                <img className="d-block w-100 px-3 mb-3" src={img2} alt="" />
                                             </div>
-                                            <div className="col-6 col-lg-3  h-100  align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img3} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center mb-3">
+                                                <img className="d-block w-100 px-3 mb-3" src={img3} alt="" />
                                             </div>
-                                            <div className="col-6 col-lg-3 h-100 align-self-center">
-                                                <img className="d-block w-100 px-3  mb-3" src={img4} alt="" />
+                                            <div className="col col-lg-3 ci h-100 align-self-center mb-3">
+                                                <img className="d-block w-100 px-3 mb-3" src={img4} alt="" />
                                             </div>
                                         </div>
                                     </div>
