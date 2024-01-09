@@ -2,7 +2,7 @@ import React from 'react';
 import flagmn from '../../Assets/MC - Monaco.png';
 import castor from '../../Assets/castor-png-2.png';
 import youtubeicon from '../../Assets/Frame-youtube-icon.png';
-import './VideoSection.css'; // Create a separate CSS file for styling
+import './VideoSection.css';
 
 function VideoSection() {
     return (

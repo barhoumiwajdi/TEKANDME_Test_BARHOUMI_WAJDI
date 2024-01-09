@@ -19,15 +19,15 @@ function ArtSection() {
                 const viewportHeight = window.innerHeight;
                 const currentScrollY = window.scrollY;
 
-                // Determine the scroll direction
+
                 const scrollDirection = currentScrollY > prevScrollY.current ? 'down' : 'up';
 
-                // Calculate opacity based on the scroll direction and section height
+
                 const newOpacity = scrollDirection === 'down' ? 1 : 1 - Math.max(0, 1 - rect.top / viewportHeight);
                 const newOpacity1 = scrollDirection === 'up' ? 1 : 1 - Math.max(0, 1 - rect.top / viewportHeight);
 
-                // Calculate parallax effect
-                const newParallaxOffset = -rect.top * 0.5; // Adjust the multiplier for the desired parallax effect
+
+                const newParallaxOffset = -rect.top * 0.5;
 
                 setOpacity(newOpacity);
                 setOpacity(newOpacity1);
